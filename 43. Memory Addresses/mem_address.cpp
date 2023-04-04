@@ -7,7 +7,7 @@ int main(){
     // The & operator is used to get the memory address of a variable. It is called the address-of operator, written in hexadecimal.
     std::cout << &name << std::endl;
 
-    // The * operator is used to get the value of a variable at a memory address
+    // The * operator is used to get the value of a variable at a memory address. It is called the dereference operator.
     std::cout << *&name << std::endl;
 
     return 0;
